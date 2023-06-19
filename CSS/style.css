@@ -1,0 +1,39 @@
+.wrapper{
+     width :1000px;
+     height :750px;
+     color:blueviolet;
+     border :4px solid red;
+}
+.box{
+     width :400px;
+     height :300px;
+     border: 4px dashed blueviolet;
+     border-radius: 10px;
+     text-align:center;
+     font-size:7;
+}
+#boxtopleft{
+     float:left;
+     margin-left:50px;
+     margin-top:50px;
+}
+#boxtopright{
+     float:right;
+     margin-right:50px;
+     margin-top:50px;
+}
+#boxbottomleft{
+     float:left;
+     margin-top:50px;
+     margin-left:50px;
+}
+#boxbottomright{
+     float:right;
+     margin-top:50px;
+     margin-right:50px;
+}
+
+
+
+
+

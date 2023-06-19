@@ -1,0 +1,22 @@
+left{
+    float:topleft;
+    margin-left:50px;
+    text-align:middle;
+    color:blueviolet;
+    border: 4px dashed blueviolet;
+}
+    
+
+   
+
+right{
+    float:topright;
+    margin-right:50px;
+    text-align:middle;
+    color:blueviolet;
+    border: 4px dashed blueviolet;
+}
+    
+
+  
+

@@ -1,0 +1,127 @@
+.top{
+    width : 100%;
+    height: 100px;
+   
+}
+.bottom{
+    width : 100%;
+    height: 500px;
+  
+}
+.logo{
+    height: 90px;
+    width: 200px;
+    border: 3px red solid;
+    background-color: aquamarine;
+    background-image: ("https://tse2.mm.bing.net/th?id=OIP.Gec5yDFl1bDBsTBE-NoL2wHaHa&pid=Api&P=0&h=180");
+    background-size: 100%;
+   
+    background-repeat: no-repeat;
+}
+.heading
+  {
+    position: fixed;
+    top: 10px; 
+    left: 220px;
+    width: 1120px; height: 90px;
+    
+    background-color: aquamarine; 
+    
+}
+.left{
+    width : 45%;
+    height:450px;
+   
+}
+.right{
+    position: fixed;
+    top: 120px; 
+    left: 650px;
+    width :50;
+    height: 450px;
+   
+    float:right;
+}
+.imgs{
+    width: 250px;
+    height:190px;
+    border: 5px dashed rgb(145, 6, 158);
+}
+#one,#three{
+    margin-top: 10px;
+    float:left;
+    margin-left: 10px;
+}
+#two,#four{
+    margin-top: 10px;
+    float:right;
+    margin-right: 10px;
+}
+#one{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.ZuxIRj6VJJw06gy-GS_2jgHaHa&pid=Api&P=0&h=180");
+    background-size: 300px 200px
+}
+.v{
+    position: fixed;
+    top: 120px; 
+    left: 650px;
+    width : 50%;
+    height: 250px;
+   
+    float:right;
+}
+video{
+    position:fixed;
+}
+.txt{
+    position: fixed;
+    top:380px; 
+    left: 700px;
+    width : 40%;
+    height: 160px;
+   
+    float:right;
+}
+p{
+    
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-content: center;
+    line-height: 30px;
+
+} 
+#one:hover,#two:hover,#three:hover,#four:hover{
+    transform: scale(2); 
+}
+#one,#two,#three,#four{
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease; 
+}
+
+#two
+{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.HJMOlpy2NxMo0tcHzM3gggHaEt&pid=Api&P=0&h=180");
+    background-size: 200px 200px;
+}
+#three
+{
+    background-image: url("https://i.pinimg.com/originals/43/56/68/435668647df84acb813f7273c7c890fd.jpg");
+    background-size: 300px 200px;
+}
+#four
+{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.WfBLHUb0cs4i1W68h-krNQHaE8&pid=Api&P=0&h=180");
+    background-size: 300px 200px;
+}
+h1{
+    color:rgb(129, 106, 228);
+    text-align: center;
+
+}
+body{
+    background-color: palevioletred;
+}
