@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Women Empowerment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f44336;
+      padding: 10px;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .jumbotron {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    .jumbotron h1 {
+      color: #f44336;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Get in Touch</h1>
+      <p>
+        We would love to hear from you! If you have any questions, suggestions, or want to get involved in our women empowerment initiatives, please fill out the form below.
+      </p>
+    </div>
+    <h2>Contact Form</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
